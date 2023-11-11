@@ -124,7 +124,7 @@ fifthBlock.addEventListener('mouseout', function handleMouseOut() {
 });
 
 
-fourthBlock.insertAdjacentHTML('beforeend', `<p>To open a form for creating an ordered list you must select some numbers in the input field of the third block</p>`);
+fourthBlock.insertAdjacentHTML('beforeend', `<p>To open a form for creating an ordered list you must select some numbers in the input field in the fifth block</p>`);
 let listKey = "keyForDataOfList";
 let inputField = document.querySelector('#userNumber');
 let isAlreadySelected = false;
